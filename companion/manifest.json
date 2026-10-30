@@ -1,0 +1,34 @@
+{
+  "id": "borgesav-timerpro",
+  "name": "Borges AV Timer Pro",
+  "shortname": "Borges Timer",
+  "description": "Controle profissional do Borges AV Timer Pro",
+  "version": "1.0.2",
+  "license": "MIT",
+  "repository": "https://github.com/borgesav/companion-module-borgesav-timerpro",
+  "bugs": "https://github.com/borgesav/companion-module-borgesav-timerpro/issues",
+  "maintainers": [
+    {
+      "name": "Borges AV Studio"
+    }
+  ],
+  "runtime": {
+    "type": "node22",
+    "api": "nodejs-ipc",
+    "apiVersion": "2.0.4",
+    "entrypoint": "../src/entry.js"
+  },
+  "manufacturer": "Borges AV Studio",
+  "products": [
+    "Timer Pro"
+  ],
+  "keywords": [
+    "timer",
+    "countdown",
+    "event",
+    "broadcast",
+    "ndi"
+  ],
+  "type": "connection",
+  "legacyIds": []
+}
